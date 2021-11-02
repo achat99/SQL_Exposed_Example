@@ -14,6 +14,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.exposed:exposed-core:0.34.1")
+    implementation("org.jetbrains.exposed:exposed-dao:0.34.1")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.34.1")
 }
 
 tasks.test {
